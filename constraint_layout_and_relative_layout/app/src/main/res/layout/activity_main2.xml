@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:id="@+id/comsats"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/white_rectangle_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/comsatsimage"
+            android:layout_width="140dp"
+            android:layout_height="135dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/app_name"
+            android:padding="8dp"
+            android:src="@drawable/COMSATS_new_logo" />
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@+id/comsats"
+        android:layout_margin="20dp"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/layoutstackoverflow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/round_btn"
+            >
+
+            <ImageView
+                android:id="@+id/stackoverflowimageview"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:src="@drawable/stackoverflow"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name" />
+            <Button
+
+                android:id="@id/stackoverBtn"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="13dp"
+                android:text="@string/register"
+                android:textStyle="bold"
+                android:background="@drawable/round_btn"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layoutgithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/round_btn"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:layout_below="@+id/layoutstackoverflow"
+            >
+
+            <ImageView
+                android:id="@+id/githubimageview"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:src="@drawable/github"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name" />
+            <Button
+                android:id="@id/githubbtn"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="13dp"
+                android:text="@string/register"
+                android:textStyle="bold"
+                android:background="@drawable/round_btn"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/layoutubuntu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/round_btn"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:layout_below="@+id/layoutgithub"
+            >
+
+            <ImageView
+                android:id="@id/ubuntuimageview"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ubuntu"
+                android:layout_margin="10dp"
+                />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="13dp"
+                android:text="@string/register"
+                android:textStyle="bold"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="@string/go_on"
+            android:textStyle="bold"
+            android:id="@+id/goontbn"
+            android:layout_below="@+id/layoutubuntu"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="60dp"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

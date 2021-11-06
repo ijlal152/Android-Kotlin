@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_shadow_end_color"
+    android:padding="16dp"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:ignore="Suspicious0dp,UselessLeaf,UselessParent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/name"
+            />
+
+        <TextView
+            android:id="@+id/tvRenNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg_no"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:id="@+id/tvSession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session"
+            tools:ignore="HardcodedText"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:layout_gravity="center_vertical"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

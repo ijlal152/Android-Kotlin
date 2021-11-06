@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SqLite</string>
+    <string name="sqlite_database">SqLite Database</string>
+    <string name="stuent_name">Stuent name</string>
+    <string name="student_name">Student name</string>
+    <string name="age">Age</string>
+    <string name="submit">Submit</string>
+    <string name="session">Session</string>
+    <string name="view">View</string>
+    <string name="update">Update</string>
+    <string name="id">id</string>
+    <string name="name">Name</string>
+    <string name="reg_no">Reg no</string>
+    <string name="delete">Delete</string>
+</resources>

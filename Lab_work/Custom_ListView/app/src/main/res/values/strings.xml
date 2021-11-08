@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Custom_ListView</string>
+    <string name="ijlal_hussain">Ijlal Hussain</string>
+    <string name="hi_how_are_you">Hi, How are you ?</string>
+    <string name="_7_00_pm">7:00 PM</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="country">Country</string>
+</resources>

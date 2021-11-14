@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">calculatorAppKotlin</string>
+    <string name="calculator_app">Calculator App</string>
+    <string name="developed_by_ijlal_hussain">Developed by Ijlal Hussain</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_25">25</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LocationActivity">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/placeholder"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:id="@+id/superlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/teal_200">
+
+        <Button
+            android:id="@+id/currentlocationBtn"
+            android:text="@string/get_current_location"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/latitude_tv"
+                android:textColor="@color/purple_700"
+                android:layout_width="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="5dp"
+                android:layout_height="wrap_content"
+                tools:text="Latitude: 24.45444234"
+                />
+
+            <TextView
+                android:id="@+id/longitude_tv"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                tools:text="Longitude: 64.45444234"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            tools:text="@string/address_xyz"
+            />
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:backgroundTint="@color/purple_700"
+            android:visibility="gone"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

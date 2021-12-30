@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Alerts">
+
+        <Preference
+            android:key="text"
+            android:title="Notification"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="General">
+
+        <SwitchPreference
+            android:key="switch_preference"
+            android:title="Dark Theme"
+            android:summary="Battery saver"
+            />
+
+        <MultiSelectListPreference
+            android:key="multi_select_preference"
+            android:title="Auto play"
+            android:summary="Enable"
+            android:entries="@array/auto_play_entries"
+            android:entryValues="@array/entry_values"
+            android:dialogTitle="@string/auto_play"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

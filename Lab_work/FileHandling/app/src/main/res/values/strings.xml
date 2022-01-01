@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FileHandling</string>
+    <string name="file_handling">File Handling</string>
+    <string name="create_file">Create file</string>
+    <string name="read_data">Read Data</string>
+    <string name="data">Data</string>
+    <string name="enter_the_name_of_file">Enter the name of file</string>
+    <string name="write_file">Write file</string>
+</resources>
